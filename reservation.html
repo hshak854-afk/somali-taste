@@ -1,0 +1,128 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Resutaurant description">
+    <meta name="keywords" content="Resutaurant, reservation, booking">
+    <meta name="author" content="Shakeel Hassan">
+    <title> Somali Taste - Reservation</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    </head>
+    <body>
+    <header>
+            <h1>Somali Taste</h1>
+            <p>Resrve a table suitable to your likings to try some of the somali inspired restaurants</p>
+        </header>
+
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="restaurants.html">Resutaurant</a>
+        <a href="recommend.html">Recommendations</a>
+        <a href="register.html" >Register</a>
+        <a href="reservation.html" class="active">Reservation</a>
+    </nav>
+
+    <main>
+
+<section>
+
+    <h2>Restaurant Reseervation form</h2>
+    <form method="post" action="http://mercury.swin.edu.au/it000000/cos10005/regtest.php">
+
+        <p>
+                <label for="fullname">Full Name:</label>
+            </p>
+            <input type="text" id="fullname" name="fullname">
+
+            <p>
+                <label for="email">Email Address:</label>
+            </p>
+            <input type="email" id="email" name="email">
+
+            <p>
+                <label for="phone">Phone Number:</label>
+            </p>
+            <input type="text" id="phone" name="phone">
+
+            <p>
+                <label for="restaurant">Restaurant Selection</label>
+            </p>
+           
+            <select id="restaurant" name="restaurant">
+                    <option value="">Select</option>
+                    <option value="Baris and Hilib House">Baris and Hilib House</option>
+                    <option value="Basto Express">Basto Express</option>
+                    <option value="Canjeero Corner">Canjeero Corner</option>
+                    <option value="Camel Grill">Camel Grill</option>
+                    <option value="Hoyyo's Kitchen">Hoyyo's Kitchen</option>
+                    <option value="Abo's Eats">Abo's Eats</option>
+                </select>
+
+                <p>
+                <label for="date">Reservation Date</label>
+                </p>
+                <input type="date" id="date" name="date">
+
+                <p>
+                <label for="time">Reservation Time</label>
+                </p>
+                <input type="time" id="time" name="time">
+
+                <p>
+                <label for="people">Number of People</label>
+                </p>
+                <input type="number" id="people" name="people">
+
+                <p>
+                <label for="requests">Customisable Needs</label>
+                </p>
+                <textarea id="requests" name="requests"></textarea>
+
+                <p>
+                <label for="deposit">Deposit Ammount</label>
+                </p>
+                <input type="text" id="deposit" name="deposit" value="$10">
+                
+            
+                <label for = "payment">Deposit Method</label>
+               
+                <select id="payment" name="payment">
+                    <option value="">Select</option>
+                    <option value="voucher">Voucher</option>
+                    <option value="online">Online Payment</option>
+                </select>
+
+                <p>
+                    <label for="voucher">Voucher Code:</label>
+                </p>
+                <input type="text" id="voucher" name="voucher">
+
+                <p>
+                    <label for="card">Credit Card Number:</label>
+                </p>
+                <input type="text" id="card" name="card">
+
+                <p>
+                    <label for="billingemail">Billing Email Address:</label>
+                </p>
+                <input type="email" id="billingemail" name="billingemail">
+
+                <p>
+                    <input type="checkbox" id="sameemail" name="sameemail">
+                    <label for="sameemail">Same as Email Address:</label>
+                </p>
+
+                <p>
+                    <input type="submit" value="Reserve Table">
+                </p>
+
+    </form>         
+</section>
+    </main>
+    <footer>
+        <p> 2026 MyWebsite. created for COS10005 web development Assignment 2</p>
+    </footer>
+    <script src="script.js"></script>
+    </body>
+    </html>

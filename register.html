@@ -1,0 +1,105 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Registration description">
+    <meta name="keywords" content="Resutaurant, registration">
+    <meta name="author" content="Shakeel Hassan">
+    <title> Somali Taste - Register</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        
+        <header>
+            <h1>Somali Taste</h1>
+            <p>Create your very own Somali Taste Account</p>
+        </header>
+
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="restaurants.html">Resutaurant</a>
+        <a href="recommendation.html">Recommendations</a>
+        <a href="register.html" class="active">Register</a>
+        <a href="reservation.html">Reservation</a>
+    </nav>
+    <main>
+
+    
+    <section>
+        <h2>Create Your Somali Taste Account</h2>
+
+        <form>
+            <p>
+                <label for="username">Username:</label>
+            </p>
+            <input type="text" id="username" name="username">
+
+            <p>
+                <label for="email">Email Address:</label>
+            </p>
+            <input type="email" id="email" name="email">
+
+            <p>
+                <label for="phone">Phone Number:</label>
+            </p>
+            <input type="text" id="phone" name="phone">
+
+            <p>
+                <label for="password">Enter Password:</label>
+            </p>
+            <input type="password" id="password" name="password">
+
+            <p>
+                <label for="confirmPassword">Confirm Password:</label>
+            </p>
+            <input type="password" id="confirmPassword" name="confirmPassword">
+            
+            <p>Gender:</p>
+
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <input type="radio" id="prefer" name="gender" value="prefer">
+            <label for="prefer">Prefer Not Say</label>
+
+                 <p>
+                    <label for="diet">Dietary Preference:</label>
+                </p>
+
+                <select id="diet" name="diet">
+                    <option value="">Select</option>
+                    <option value="halal">Halal</option>
+                    <option value="vegan">Vegan</option>
+                    <option value="none">None</option>
+                </select>
+
+                <p>
+                    <label for="country">Country / Region:</label>
+                </p>
+
+                <select id="country" name="country">
+                    <option value="">Select</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Somalia">Somalia</option>
+                    <option value="United States">United States</option>
+                </select>
+
+                <p>
+                    <input type="submit" value="Register">
+                </p>
+
+
+        </form>
+    </section>
+    </main>
+
+        <footer>
+        <p> 2026 MyWebsite. created for COS10005 web development Assignment 2</p>
+    </footer>
+    <script src="script.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,79 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Recommendation description">
+    <meta name="keywords" content="Resutaurant, reservation, dining, food">
+    <meta name="author" content="Shakeel Hassan">
+    <title>Somali Taste - Reccomendations</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    
+    </head>
+
+    <body>
+        <header>
+            <h1>Somali Taste</h1>
+            <p>Find a restaurant based on your Preference</p>
+        </header>
+
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="restaurants.html">Resutaurant</a>
+        <a href="recommendation.html" class="active">Recommendations</a>
+        <a href="register.html">Register</a>
+        <a href="reservation.html">Reservation</a>
+    </nav>
+    <main>
+
+        <section>
+            <h2> Resutaurant Recommendation form</h2>
+            <p>Select your preferences to recieive a restaurant reccomendations</p>
+        </section>
+
+            <form>
+
+                <p>
+                    <label for="diet">Dietary Preference:</label>
+                </p>
+
+                <select id="diet" name="diet">
+                    <option value="">Select</option>
+                    <option value="halal">Halal</option>
+                    <option value="vegan">Vegan</option>
+                    <option value="none">None</option>
+                </select>
+
+                <p>
+                    <label for="budget">Budget Range:</label>
+                </p>
+
+                <select id="budget" name="budget">
+                    <option value="">Select</option>
+                    <option value="low">Under $30</option>
+                    <option value="medium">$30 - $60</option>
+                    <option value="high">$60+</option>
+                </select>
+
+                <p>
+                    <label for="purpose">Dining Purpose:</label>
+                </p>
+
+                <select id="purpose" name="purpose">
+                    <option value="">Select</option>
+                    <option value="family">Family</option>
+                    <option value="date">Date</option>
+                    <option value="business">Business</option>
+                </select>
+
+                <p>
+                    <button type="button">Get Recommendation</button>
+                </p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p> 2026 MyWebsite. created for COS10005 web development Assignment 2</p>
+    </footer>
+    <script src="script.js"></script>
+    </body>
+    </html>
